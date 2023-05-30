@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/parentLayoutPlanSingleRow"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@drawable/shadow_background">
+
+    <TextView
+        android:id="@+id/txtPlanNameSingleRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Standard"
+        android:textColor="@color/primarydark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtPlanDurationSingleRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Duration: 90 days"
+        android:textColor="@color/primarydark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPlanNameSingleRow"/>
+
+    <TextView
+        android:id="@+id/txtPlanSpeedSingleRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Speed: 50 Mbps"
+        android:textColor="@color/primarydark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPlanDurationSingleRow"/>
+
+    <TextView
+        android:id="@+id/txtPlanPriceSingleRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Rs.599"
+        android:textColor="@color/primarydark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPlanSpeedSingleRow"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
