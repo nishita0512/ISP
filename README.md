@@ -15,7 +15,17 @@ This App implements a lot of essential features along with good UI/UX for user's
 
 ## Screenshots
 
+<p float="left">
+  <img src="https://github.com/nishita0512/ISP/blob/master/Screenshots/Login.png" width="285" height="610" />
+  <img src="https://github.com/nishita0512/ISP/blob/master/Screenshots/Dashboard.png" width="285" height="610" />
+  <img src="https://github.com/nishita0512/ISP/blob/master/Screenshots/ServerMap.png" width="285" height="610" />
+</p>
 
+<p float="left">
+  <img src="https://github.com/nishita0512/ISP/blob/master/Screenshots/ChatScreen.png" width="285" height="610" />
+  <img src="https://github.com/nishita0512/ISP/blob/master/Screenshots/PlansList.png" width="285" height="610" />
+  <img src="https://github.com/nishita0512/ISP/blob/master/Screenshots/Razorpay.png" width="285" height="610" />
+</p>
 
 ## Acknowledgements
 
