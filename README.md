@@ -39,6 +39,4 @@ This App implements a lot of essential features along with good UI/UX for user's
 
 - [OkHTTP](https://square.github.io/okhttp/): OkHttp perseveres when the network is troublesome: it will silently recover from common connection problems. If your service has multiple IP addresses, OkHttp will attempt alternate addresses if the first connect fails. This is necessary for IPv4+IPv6 and services hosted in redundant data centers.
 
-
-
 ---

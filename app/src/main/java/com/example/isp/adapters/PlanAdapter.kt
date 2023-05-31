@@ -44,8 +44,8 @@ class PlanAdapter(val act: Activity): ListAdapter<Plan, RecyclerView.ViewHolder>
                 jsonObj.put("amount",price.toString())
 
                 val prefill = JSONObject()
-                prefill.put("contact","9890855980")
-                prefill.put("email","vineshchtr@gmail.com")
+                prefill.put("contact","9307047299")
+                prefill.put("email","nishitalotwani@gmail.com")
                 jsonObj.put("prefill",prefill)
 
                 chkOut.open(act,jsonObj)
